@@ -14,9 +14,10 @@ export default function RootLayout({ children, params }: RootLayoutProps) {
       <head>
         <link rel="icon" type="image/x-icon" href="/favicon.ico" sizes="any"/>
         <title>{params.title}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"></meta>
         <meta name="description" content={params.description} />
       </head>
-      <body className=''>
+      <body className='min-w-max max-w-full w-full flex'>
         <ThemeProvider attribute="class"
             defaultTheme="system"
             enableSystem

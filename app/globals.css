@@ -7,9 +7,7 @@ body {
 }
 html,
 body,
-:root{
-  height:100%
-}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
@@ -17,6 +15,10 @@ body,
 }
 
 @layer base {
+  :root{
+    height:100%;
+    width:auto;
+  }
   :root {
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
@@ -79,4 +81,11 @@ body,
   body {
     @apply bg-background text-foreground;
   }
+}
+::-webkit-scrollbar-thumb{
+  background-image: linear-gradient(to right bottom, #00ffff, #96aaec);
+}
+::-webkit-scrollbar{
+  width:10px;
+  height:0px;  
 }
