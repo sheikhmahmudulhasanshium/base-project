@@ -8,7 +8,7 @@ interface ModalProps {
 
 const Modal: React.FC<ModalProps> = ({ header, footer, children }) => {
   return (
-    <main className="flex flex-1 flex-col justify-between  max-w-full md:w-full sm:w-fit lg:w-full w-full overflow-hidden">
+    <main className="flex flex-col justify-center items-center w-screen  max-w-full">
       {header}
       {children}
       {footer}

@@ -19,7 +19,7 @@ const Header = () => {
                 {/* Visible on large screens only */}
                 <div className="hidden lg:block justify-between w-10/12">
                     {/* Content for large screens */}
-                    <div className="flex justify-between w-full gap-2">
+                    <div className="flex justify-between items-center w-full gap-2">
                         <p>Logo</p>
                         <Navbar/>
                         <div className="flex justify-end gap-4">

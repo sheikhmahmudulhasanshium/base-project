@@ -4,21 +4,26 @@ import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigge
 import Link from "next/link";
 const optionList=[
     {
-        name:'Option 1',
+        name:'About',
         link:'/option-1',
     },
     {
-        name:'Option 2',
+        name:'How it works',
         link:'/option-2',
     },
     {
-        name:'Option 3',
+        name:'Offering',
         link:'/option-3',
     },
     {
-        name:'Option 4',
+        name:'FAQ',
         link:'/',
-    },]
+    },
+    {
+        name:'Contact',
+        link:'/',
+    },
+]
 
 
 const Sidebar = () => {
@@ -37,6 +42,7 @@ const Sidebar = () => {
                         </Link>
                     </DropdownMenuItem>
                 ))}
+                <p>Sign In</p>
             </DropdownMenuContent>
         </DropdownMenu>
      );
