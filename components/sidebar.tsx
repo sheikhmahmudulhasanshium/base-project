@@ -24,8 +24,8 @@ const optionList=[
 const Sidebar = () => {
     return ( 
         <DropdownMenu >
-            <DropdownMenuTrigger asChild className="p-0 m-0">
-                <Button size='icon' variant='ghost' className="p-0 m-0 scale-100 font-bold">
+            <DropdownMenuTrigger asChild className="p-0 m-0 ">
+                <Button size='icon' variant='ghost' className="p-0 m-0 scale-100 font-bold hover:bg-slate-500 hover:rounded-full rounded-full hover:bg-opacity-20">
                     <MenuIcon className="text-blue-500 scale-150 text-4xl p-0 m-0"/>
                 </Button>
             </DropdownMenuTrigger>
