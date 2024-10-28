@@ -17,7 +17,7 @@ body,
 @layer base {
   :root{
     height:100%;
-    width:auto;
+    //width:auto;
   }
   :root {
     --background: 0 0% 100%;
